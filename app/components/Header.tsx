@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between p-4">
         <div className="flex items-center">
           <Link href="/">
-            <Image src="/logo.svg" alt="Tardivo Zanetti Logo" width={150} height={50} />
+            <Image src="/logo.svg" alt="Tardivo Zanetti Logo" width={180} height={60} />
           </Link>
         </div>
         <nav className="hidden md:flex items-center space-x-6">
