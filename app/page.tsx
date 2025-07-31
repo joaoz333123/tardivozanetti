@@ -1,3 +1,5 @@
+import Icon from "./components/Icon";
+
 export default function Home() {
   return (
     <main>
@@ -12,6 +14,50 @@ export default function Home() {
           <button className="bg-[#D97706] hover:bg-orange-700 text-white font-bold py-4 px-8 rounded-lg mt-8 text-lg">
             Agende uma Análise Estratégica
           </button>
+        </div>
+      </section>
+
+      {/* Augmented Engineering Section */}
+      <section className="bg-[#F4F6F8] py-20 text-center">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold font-poppins text-[#1F2937]">
+            Engenharia de Precisão, Potencializada por Tecnologia
+          </h2>
+          <p className="text-lg font-inter text-gray-600 mt-4 max-w-3xl mx-auto">
+            Além da experiência de campo, utilizo Inteligência Artificial para criar ferramentas sob medida, transformando seus desafios operacionais em vantagem competitiva.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+            {/* Column 1: Engenharia */}
+            <div className="bg-white p-8 rounded-lg shadow-md">
+              <Icon name="tools" className="w-12 h-12 text-amber-600 mx-auto mb-6" />
+              <h3 className="text-xl font-bold font-poppins text-[#1F2937] mb-3">
+                Consultoria de Engenharia Especializada
+              </h3>
+              <p className="font-inter text-gray-600">
+                Análise profunda de sistemas de HVAC, Retrofit, Operações e Perícia Judicial, com foco em eficiência e conformidade.
+              </p>
+            </div>
+            {/* Column 2: IA */}
+            <div className="bg-white p-8 rounded-lg shadow-md">
+              <Icon name="brain" className="w-12 h-12 text-amber-600 mx-auto mb-6" />
+              <h3 className="text-xl font-bold font-poppins text-[#1F2937] mb-3">
+                Desenvolvimento de Ferramentas com IA
+              </h3>
+              <p className="font-inter text-gray-600">
+                Criação de dashboards inteligentes e automações personalizadas para resolver seus problemas específicos de gestão e operação.
+              </p>
+            </div>
+            {/* Column 3: Resultados */}
+            <div className="bg-white p-8 rounded-lg shadow-md">
+              <Icon name="chart" className="w-12 h-12 text-amber-600 mx-auto mb-6" />
+              <h3 className="text-xl font-bold font-poppins text-[#1F2937] mb-3">
+                Foco em Resultados Mensuráveis
+              </h3>
+              <p className="font-inter text-gray-600">
+                Soluções que entregam ROI claro, com cases de redução de custos, otimização de CAPEX e aumento da eficiência operacional.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
