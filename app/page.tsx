@@ -125,6 +125,47 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* About Me Section */}
+      <section className="bg-[#F4F6F8] py-24">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            {/* Left Column: Image Placeholder */}
+            <div className="bg-gray-300 aspect-[3/4] rounded-lg w-full max-w-sm mx-auto"></div>
+
+            {/* Right Column: Text Content */}
+            <div className="text-left">
+              <h2 className="text-4xl font-bold font-poppins text-[#1F2937]">
+                O Engenheiro, Gestor e Inovador por Trás dos Resultados
+              </h2>
+              <p className="font-inter text-gray-600 mt-6 text-lg">
+                Com mais de 15 anos de experiência, uno a precisão da engenharia de campo, a visão estratégica de negócios de MBAs pela FGV e USP, e a paixão por tecnologia para criar soluções que geram valor real. Meu objetivo é transformar seus desafios mais complexos em ativos de performance.
+              </p>
+              <p className="font-inter text-gray-600 mt-4 text-lg">
+                Atuo como Perito Judicial no TJPR, aplicando o mais alto padrão de rigor técnico e ético em todos os projetos.
+              </p>
+              <a href="#" className="bg-navy-blue hover:opacity-90 text-white font-bold py-3 px-6 rounded-lg mt-8 inline-block transition-opacity">
+                Conheça minha trajetória
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA Section */}
+      <section className="bg-navy-blue text-white py-20">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-4xl font-bold font-poppins">
+            Pronto para Transformar Sua Operação?
+          </h2>
+          <p className="text-lg font-inter mt-4 max-w-3xl mx-auto">
+            Vamos conversar sobre como a engenharia estratégica e as soluções de IA personalizadas podem reduzir seus custos e aumentar a eficiência dos seus ativos.
+          </p>
+          <a href="#" className="bg-burnt-orange hover:bg-orange-700 text-white font-bold py-4 px-8 rounded-lg mt-8 inline-block text-lg transition-colors">
+            Entre em Contato
+          </a>
+        </div>
+      </section>
     </main>
   );
 }
