@@ -24,7 +24,7 @@ const ServicesPage = () => {
             <ul className="list-disc list-inside space-y-2 text-gray-600">
               <li>Análise de Viabilidade e ROI</li>
               <li>Engenharia de Valor e Especificação Técnica</li>
-              <li>Gerenciamento da Execução 'Turnkey'</li>
+              <li>Gerenciamento da Execução &apos;Turnkey&apos;</li>
               <li>Comissionamento e Análise de Performance</li>
             </ul>
           </div>
