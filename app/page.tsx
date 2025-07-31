@@ -60,6 +60,71 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Featured Projects Section */}
+      <section className="bg-white py-24">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <h2 className="text-4xl font-bold font-poppins text-[#1F2937]">
+              Projetos que Geram Resultados Mensuráveis
+            </h2>
+            <p className="text-lg font-inter text-gray-600 mt-4">
+              Conheça na prática como a engenharia estratégica e a tecnologia impactam o resultado de grandes ativos.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Project Card 1: AMFin */}
+            <div className="border rounded-lg overflow-hidden transition-shadow duration-300 hover:shadow-xl flex flex-col">
+              <div className="bg-gray-300 aspect-video"></div>
+              <div className="p-6 flex flex-col flex-grow">
+                <h3 className="text-xl font-bold font-poppins text-[#1F2937] mb-3">
+                  Sistema de Gestão Financeira de Obras
+                </h3>
+                <p className="font-inter text-gray-600 mb-6 flex-grow">
+                  Como um sistema customizado eliminou o caos financeiro e gerou uma economia de R$60.000/ano para uma holding.
+                </p>
+                <a href="#" className="font-bold text-[#1F2937] hover:text-[#D97706] transition-colors mt-auto">
+                  Ver Estudo de Caso
+                </a>
+              </div>
+            </div>
+
+            {/* Project Card 2: PGM */}
+            <div className="border rounded-lg overflow-hidden transition-shadow duration-300 hover:shadow-xl flex flex-col">
+              <div className="bg-gray-300 aspect-video"></div>
+              <div className="p-6 flex flex-col flex-grow">
+                <h3 className="text-xl font-bold font-poppins text-[#1F2937] mb-3">
+                  Plataforma de Gestão de Manutenção (PWA)
+                </h3>
+                <p className="font-inter text-gray-600 mb-6 flex-grow">
+                  De 16 horas a 10 minutos: como um aplicativo web offline-first revolucionou a gestão de manutenção crítica.
+                </p>
+                <a href="#" className="font-bold text-[#1F2937] hover:text-[#D97706] transition-colors mt-auto">
+                  Ver Estudo de Caso
+                </a>
+              </div>
+            </div>
+
+            {/* Project Card 3: GIP */}
+            <div className="border rounded-lg overflow-hidden transition-shadow duration-300 hover:shadow-xl flex flex-col">
+              <div className="bg-gray-300 aspect-video"></div>
+              <div className="p-6 flex flex-col flex-grow">
+                <h3 className="text-xl font-bold font-poppins text-[#1F2937] mb-3">
+                  Plataforma de Inteligência Pericial
+                </h3>
+                <p className="font-inter text-gray-600 mb-6 flex-grow">
+                  Como uma ferramenta digital reduziu o risco processual e gerou uma economia de R$48.000/ano em eficiência.
+                </p>
+                <a href="#" className="font-bold text-[#1F2937] hover:text-[#D97706] transition-colors mt-auto">
+                  Ver Estudo de Caso
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
